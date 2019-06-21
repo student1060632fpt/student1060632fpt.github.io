@@ -1,0 +1,450 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chèvre || Ao thun</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style_search.css">
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/fontawesome-all.js" defer=""></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    
+     <div class="navbar-header">
+     	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     		<span class="icon-bar"></span>
+     		<span class="icon-bar"></span>
+     		<span class="icon-bar"></span>
+     	</button>
+      <a class="navbar-brand visible-lg visible-md" href="Index.html">Home</a>
+      <a class="navbar-brand visible-sm visible-xs" href="Index.html">Chèvre</a>
+     </div><!--end nav-->
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+          <a href="Ao-so-mi.html">Áo sơ mi</a>
+	  </li>
+      
+      <li class="dropdown">
+          <a href="Ao-thun.html">Áo thun</a>
+	  </li>
+	  
+	  <li class="dropdown">
+		  <a href="Ao-khoac.html">Áo khoác</a>
+	  </li>
+	  
+	  <li class="dropdown">
+          <a href="Quan.html">Quần</a>
+          
+		  <!--thêm trang nữa y chang bánh với kẹo-->
+	  </li>
+	  
+	  <li class="dropdown">
+          <a href="Gioithieu.html">Sitemap</a>
+	  </li>
+	  
+    </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+      	<a href="Dangki.html">
+      		Đăng ký
+      	</a>
+
+      </li>
+      <li>
+      	
+      	<a href="Detail.html">
+      		Sản phẩm
+      	</a>
+      </li>
+    </ul>
+	 
+	  </div><!--end collapse-->
+  </div><!--end container-->
+</nav><!--end navigation bar-->
+
+<div class="jumbotron">
+  
+  <div class="container-fluid">
+    <div class="row">   
+        
+		<div class="col-lg-3 hidden-md hidden-sm hidden-xs logo-top">
+			<a href="Index.html" style="color: black">Chèvre</a>
+		</div>
+
+		<div class="col-sm-6 input-group">
+			<div class="input-group-btn search-panel">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					<span id="search_concept"><div class="hidden-xs" style="display: inline-block; font-size: 18px">Danh mục</div></span> <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+				  <li><a href="#">Áo sơ mi</a></li>
+				  <li><a href="#">Áo thun</a></li>
+				  <li><a href="#">Áo khoác </a></li>
+				  <li><a href="#">Quần </a></li>
+				  <li class="divider"></li>
+				  <li><a href="#all">Tất cả</a></li>
+				</ul>
+			</div>
+			<input type="hidden" name="search_param" value="all" id="search_param">         
+			<input type="text" class="form-control" name="x" placeholder="..." style="color: #470f7bb3">
+			<span class="input-group-btn">
+			   <a href="Ao-thun.html">
+				<button class="btn btn-default" type="button"><i class="fas fa-search"></i></button>
+				</a>
+			</span>
+		</div><!--end input group khung tìm kiếm-->
+
+
+
+		<div class="col-lg-3 col-md-6 col-sm-6 login-register">
+			<a href="#" class="iconjum" data-toggle="modal" data-target="#login">Đăng nhập <i class="fas fa-sign-in-alt"></i></a>
+		</div><!--end login-->
+
+		<!--modal login-->
+		<div class="modal fade" id="login" role="dialog">
+			<div class="modal-dialog">
+
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">Đăng nhập</h4>
+				</div><!--end header-->
+				<div class="modal-body">
+				  <form action="Index.html">
+					<div class="row">
+
+					  <div class="col text-center">
+						<p>Đăng nhập bằng</p>
+						<a href="#" class="fb">
+						   Facebook
+						 </a>
+						<a href="#" class="twitter">
+						   Zalo
+						</a>
+						<a href="#" class="google">
+						   Google+
+						</a>
+					  </div><!--end col-->
+
+					  <div class="col text-center">
+						<p>Hoặc đăng nhập:</p>
+						<input type="text" name="username" placeholder="Tên đăng nhập" required>
+						<input type="password" name="password" placeholder="Mật khẩu" required>
+						<input type="submit" value="Login">
+					  </div><!--end col-->
+
+					</div><!--row-->
+				  </form>
+
+
+
+				</div><!--modal body-->
+				<div class="modal-footer">
+
+					<div class="bottom-container">
+					  <div class="row">
+						<div class="col">
+						  <a href="Dangki.html" class="singin">Đăng kí</a>
+						</div><!--end col-->
+						<div class="col">
+						  <a href="#" class="singin">Quên mật khẩu</a>
+						</div><!--end col-->
+
+
+					  </div><!--end row-->
+					</div><!--end bottom container-->
+
+				</div><!--end modal footer-->
+			  </div><!--end modal content-->
+
+			</div><!--end modal dialog-->
+		 </div><!--end modal -->
+			
+
+		</div><!--end row-->
+		<div class="clearfloat"></div>
+	</div><!--end container-->
+</div><!--end jumbotron-->
+
+<script  type="text/javascript">
+	$(document).ready(function(e){
+    $('.search-panel .dropdown-menu').find('a').click(function(e) {
+		e.preventDefault();
+		var param = $(this).attr("href").replace("#","");
+		var concept = $(this).text();
+		$('.search-panel span#search_concept').text(concept);
+		$('.input-group #search_param').val(param);
+	});
+});
+	$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<!--hết phần để cop rồi-->
+	
+<div class="container-fluid padalit">
+	<div class="row">
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+			<h4>Danh mục</h4>
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Áo sơ mi</a>
+					</h4>
+				  </div>
+				  <div id="collapse1" class="panel-collapse collapse in">
+					<!--Bắt đầu-->
+					  <div class="list-group">
+						<a href="Ao-so-mi.html" class="list-group-item">Áo sơ mi tay dài <span class="badge">10</span></a>
+						<a href="Ao-so-mi.html" class="list-group-item">Áo sơ mi tay ngắn <span class="badge">3</span></a>
+						
+					  </div>
+					<!--Kết thúc-->
+				  </div><!--end collapse 1-->
+				</div><!--end panel-default-->
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Áo thun</a>
+					</h4>
+				  </div>
+				  <div id="collapse2" class="panel-collapse collapse">
+					 <!--Bắt đầu-->
+					  <div class="list-group">
+						<a href="Ao-thun.html" class="list-group-item">Áo thun dài <span class="badge">10</span></a>
+						<a href="Ao-thun.html" class="list-group-item">Áo thun ngắn <span class="badge">7</span></a>
+						
+					  </div>
+					<!--Kết thúc-->
+				  </div><!--end collapse 2-->
+				</div><!--end panel-default-->
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Áo khoác</a>
+					</h4>
+				  </div><!--end panel heading-->
+				  <div id="collapse3" class="panel-collapse collapse">
+					 <!--Bắt đầu-->
+					  <div class="list-group">
+						<a href="Ao-khoac.html" class="list-group-item">Áo khoác da <span class="badge">10</span></a>
+						<a href="Ao-khoac.html" class="list-group-item">Áo khoác dáng dài<span class="badge">3</span></a>
+					  </div>
+					<!--Kết thúc-->
+				  </div><!--end collapse 3-->
+				</div><!--end panel-default-->
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Quần</a>
+					</h4>
+				  </div><!--end panel heading-->
+				  <div id="collapse4" class="panel-collapse collapse">
+					 <!--Bắt đầu-->
+					  <div class="list-group">
+						<a href="Quan.html" class="list-group-item">Quần dài <span class="badge">10</span></a>
+						<a href="Quan.html" class="list-group-item">Quần short <span class="badge">7</span></a>
+					  </div>
+					<!--Kết thúc-->
+				  </div><!--end collapse 3-->
+				</div><!--end panel-default-->
+			  </div> <!--end panel-group-->
+			
+		</div><!--end col sm 2-->
+		
+		
+		<!--Bên sản phẩm-->
+		<div class="col-lg-10 col-md-9 col-sm-8 col-xs-12 text-center">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/1.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption">
+						<a href="Detail.html">Alex</a>
+						<p><strong>250.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/2.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption"><a href="Detail.html">Andy</a>
+						<p><strong>150.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/3.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption">
+						<a href="Detail.html">John</a>
+						<p><strong>200.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/4.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption">
+						<a href="Detail.html">Scott</a>
+						<p><strong>350.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/5.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption">
+						<a href="Detail.html">Tim</a>
+						<p><strong>270.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/6.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption"><a href="Detail.html">Javoltar</a>
+						<p><strong>220.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/7.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption">
+						<a href="Detail.html">Joe</a>
+						<p><strong>450.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/8.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption">
+						<a href="Detail.html">Jimmy</a>
+						<p><strong>250.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 nbr ">
+				  <div class="thumbnail nbr">
+					<a href="#" target="_blank">
+					  <div class="containeric">
+						<img src="pics/ao thun/9.jpg" alt="Lights" style="width:100%">
+					  </div><!--end containeric-->
+					  <div class="caption">
+						<a href="Detail.html">Rocky</a>
+						<p><strong>220.000 d</strong></p>
+					  </div><!--end cap-->
+					</a>
+				  </div><!--end thumbnail-->
+				</div><!--end col-->
+			</div>
+			<!--end row-->
+		</div><!--end col sm 10-->
+		
+		
+	</div><!--end row-->
+</div><!--end container-->
+
+
+<!--FOOTERRRRRRRRRRRR-->
+
+<footer class="container-fluid grey">
+ 	<div class="text-center">
+	  <a href="#myPage" title="To Top" class="totop">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	  </a>
+	</div>
+
+    <div class="row">   
+		<div class="col-lg-3 hidden-md hidden-sm hidden-xs logo-top text-left">
+			<a href="Index.html">Chèvre</a>
+		</div>
+		<div class="col-sm-6 col-xs-12 copyrai">©2018 Chèvre. All Rights Reserved</div><!--end input group-->
+		<div class="col-lg-3 col-xs-12 login-register text-right">
+			Ghé thăm<a href="#" class="iconjum"><i class="fab fa-facebook-f"></i></a> 
+			<a href="#" class="iconjum"><i class="fab fa-google"></i></a>
+		</div><!--end login-->
+	</div><!--end row-->
+	<div class="clearfloat"></div>
+</footer>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chèvre || Dang ki</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style_dangki.css">
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/fontawesome-all.js" defer=""></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    
+     <div class="navbar-header">
+     	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     		<span class="icon-bar"></span>
+     		<span class="icon-bar"></span>
+     		<span class="icon-bar"></span>
+     	</button>
+      <a class="navbar-brand" href="Index.html">Chèvre</a>
+     </div><!--end nav-->
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+          <a href="Ao-so-mi.html">Áo sơ mi</a>
+	  </li>
+      
+      <li class="dropdown">
+          <a href="Ao-thun.html">Áo thun</a>
+	  </li>
+	  
+	  <li class="dropdown">
+		  <a href="Ao-khoac.html">Áo khoác</a>
+	  </li>
+	  
+	  <li class="dropdown">
+          <a href="Quan.html">Quần</a>
+          
+		  <!--thêm trang nữa y chang bánh với kẹo-->
+	  </li>
+	  
+	  <li class="dropdown">
+          <a href="Gioithieu.html">Sitemap</a>
+	  </li>
+	  
+    </ul>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+      	<a href="Dangki.html">
+      		Đăng ký
+      	</a>
+
+      </li>
+      <li>
+      	
+      	<a href="Detail.html">
+      		Sản phẩm
+      	</a>
+      </li>
+    </ul>
+	 
+	  </div><!--end collapse-->
+  </div><!--end container-->
+</nav><!--end navigation bar-->
+
+<!--hết phần để cop rồi-->
+	
+	
+	
+
+
+<div class="container">
+  <div class="col-md-4">
+    <div id="logbox">
+      <form id="signup" method="post" action="Index.html">
+        <h1>Tạo tài khoản mới</h1>
+        <input name="name" type="text" placeholder="Họ và tên"  autofocus="autofocus" required="required" class="input pass"/>
+        <input name="password" type="password" placeholder="Tạo mật khẩu" required="required" class="input pass"/>
+        <input name="password2" type="password" placeholder="Gõ lại mật khẩu" required="required" class="input pass"/>
+        <input name="email" type="email" placeholder="Email" class="input pass"/>
+        <input type="submit" value="Đăng kí" class="inputButton"/>
+        
+        <div class="text-center">
+        	<a href="#" id="login_id" data-toggle="modal" data-target="#login">Đăng nhập</a>
+        </div>
+      </form>
+    </div><!--end logbox-->
+   </div>
+    <!--end col-md-6-->
+</div><!--end con-->
+	<!--modal login-->
+		<div class="modal fade" id="login" role="dialog">
+			<div class="modal-dialog">
+
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">Đăng nhập</h4>
+				</div><!--end header-->
+				<div class="modal-body">
+				  <form action="Index.html">
+					<div class="row">
+
+					  <div class="col text-center">
+						<p>Đăng nhập bằng</p>
+						<a href="#" class="fb">
+						   Facebook
+						 </a>
+						<a href="#" class="twitter">
+						   Zalo
+						</a>
+						<a href="#" class="google">
+						   Google+
+						</a>
+					  </div><!--end col-->
+
+					  <div class="col text-center">
+						<p>Hoặc đăng nhập:</p>
+						<input type="text" name="username" placeholder="Tên đăng nhập" required>
+						<input type="password" name="password" placeholder="Mật khẩu" required>
+						<input type="submit" value="Login">
+					  </div><!--end col-->
+
+					</div><!--row-->
+				  </form>
+
+
+
+				</div><!--modal body-->
+				<div class="modal-footer">
+
+					<div class="bottom-container">
+					  <div class="row">
+						<div class="col">
+						  <a href="Dangki.html" class="singin">Đăng kí</a>
+						</div><!--end col-->
+						<div class="col">
+						  <a href="#" class="singin">Quên mật khẩu</a>
+						</div><!--end col-->
+
+
+					  </div><!--end row-->
+					</div><!--end bottom container-->
+
+				</div><!--end modal footer-->
+			  </div><!--end modal content-->
+
+			</div><!--end modal dialog-->
+		 </div><!--end modal -->
+<!--FOOTERRRRRRRRRRRR-->
+
+<footer class="container-fluid grey navbar-fixed-bottom">
+    <div class="row">   
+		<div class="col-lg-3 hidden-md hidden-sm hidden-xs logo-top text-left">
+			<a href="Index.html">Chèvre</a>
+		</div>
+		<div class="col-sm-6 col-xs-12 copyrai">©2018 Chèvre. All Rights Reserved</div><!--end input group-->
+		<div class="col-lg-3 col-xs-12 login-register text-right">
+			Ghé thăm<a href="#" class="iconjum"><i class="fab fa-facebook-f"></i></a> 
+			<a href="#" class="iconjum"><i class="fab fa-google"></i></a>
+		</div><!--end login-->
+	</div><!--end row-->
+	<div class="clearfloat"></div>
+</footer>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+</body>
+</html>
