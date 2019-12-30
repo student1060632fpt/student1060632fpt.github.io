@@ -1,0 +1,122 @@
+/* Scss Document */
+@import "./_variable";
+
+//1. Biến
+//$primary-color: blue;
+
+.demo{
+	color: violet;
+	&:hover{
+		color: $primary-color;
+	}
+}
+
+//2.Gom nhóm
+header{
+//	gom nhóm cùng tiền tố font
+//	font-family: sans-serif;
+	font : {
+		weight: 100;
+		size: 1.2em;
+	}
+	
+	h1{
+		color: $primary-color;
+		span:before{
+			content: '';
+			display: block;
+			height: 2px;
+			background-color: black;
+			color: brown;
+		}
+	}
+}
+.mixin1{
+	padding: 20px 0;
+	background-color: aquamarine;
+}
+.mixin2{
+	padding: 20px 0;
+	background-color: azure;
+}
+//h dùng mixin
+@mixin nemo($bg, $co) {
+	padding: 20px 0;
+	background: $bg;
+	color: $co;
+}
+.mixin1{
+	@include nemo(brown, black);
+}
+.mixin2{
+	@include nemo(blue, white);
+}
+// kế thừa
+.but{
+	background-color: coral;
+	color: white;
+}
+
+.but2{
+	@extend .but;
+	padding: 10px;
+}
+
+// cấu trúc điều khiển
+$block: ff;
+.contai{
+	@if $block == green{
+		background-color: $block;
+	} @else if $block == red{
+		background-color: $block;
+	} @else{
+		background-color: yellow;
+	}
+}
+//dùng để check màu khi có quá nhiều màu để check, nhưng sợ trùng màu
+
+// cấu trúc lặp
+
+@for $size from 1 through 3{
+	.title-#{$size}{
+		font-size: 10px * $size;
+	}
+}
+.contai2{
+	@for $size from 1 to 3{
+		.title-#{$size}{
+			font-size: 10px * $size;
+		}
+	}
+}
+
+
+//mảng
+$socials: paypal pinterest volkswagen;
+@each $social in $socials {
+	.#{$social}{
+		height: auto;
+		background : {
+			color: black;
+			size: cover;
+			position: center;
+			repeat: no-repeat;
+			image: url(../udemi_img/#{$social}.png);
+		}
+		
+	}
+}
+
+$col: 4;
+@while $col > 4 {
+	.col-#{$col}{
+		width: 100% / $col;
+	}
+	$col: $col - 1;
+}
+.container-fluid{
+	background-color: red;
+	@media screen and (min-width: 500px){
+		background-color: blue;
+	}
+}

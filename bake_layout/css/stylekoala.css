@@ -1,0 +1,91 @@
+/* Scss Document */
+.demo {
+  color: violet; }
+  .demo:hover {
+    color: blue; }
+
+header {
+  font-weight: 100;
+  font-size: 1.2em; }
+  header h1 {
+    color: blue; }
+    header h1 span:before {
+      content: '';
+      display: block;
+      height: 2px;
+      background-color: black;
+      color: brown; }
+
+.mixin1 {
+  padding: 20px 0;
+  background-color: aquamarine; }
+
+.mixin2 {
+  padding: 20px 0;
+  background-color: azure; }
+
+.mixin1 {
+  padding: 20px 0;
+  background: brown;
+  color: black; }
+
+.mixin2 {
+  padding: 20px 0;
+  background: blue;
+  color: white; }
+
+.but, .but2 {
+  background-color: coral;
+  color: white; }
+
+.but2 {
+  padding: 10px; }
+
+.contai {
+  background-color: yellow; }
+
+.title-1 {
+  font-size: 10px; }
+
+.title-2 {
+  font-size: 20px; }
+
+.title-3 {
+  font-size: 30px; }
+
+.contai2 .title-1 {
+  font-size: 10px; }
+.contai2 .title-2 {
+  font-size: 20px; }
+
+.paypal {
+  height: auto;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../udemi_img/paypal.png); }
+
+.pinterest {
+  height: auto;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../udemi_img/pinterest.png); }
+
+.volkswagen {
+  height: auto;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../udemi_img/volkswagen.png); }
+
+.container-fluid {
+  background-color: red; }
+  @media screen and (min-width: 500px) {
+    .container-fluid {
+      background-color: blue; } }
+
+/*# sourceMappingURL=stylekoala.css.map */

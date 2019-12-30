@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.gra{
+    box-sizing: border-box;
+    height: 200px;
+    background: linear-gradient(red, orange);
+}
+.gra:nth-child(2){
+    border: 3px solid gray;
+    background: linear-gradient(to right, red, orange);
+}
+.gra:nth-child(3){
+    background: linear-gradient(to bottom right, red, orange);
+}
+.text-shadow{
+    text-shadow: 10px 10px 10px red;
+}
+.box{
+    height: 200px;
+    box-shadow: 10px 10px 10px 5px gray;
+}
+.test{
+    width: 20%;
+    background: red;
+    transition: width 2s ease;
+/*		box-shadow: 10px 10px 10px 5px gray;*/
+}
+.test:hover{
+    width: 100%;
+}
+.animation{
+    width: 100%;
+    height: 100%;
+    background: red;
+    animation-name: exam;
+    animation-duration: 5s;
+}
+@keyframes exam{
+    from{background-color: red}
+    to{background-color: orange}
+}
+.animation2{
+    position:absolute; 
+    width: 20%;
+    height: 20%;
+    background: red;
+    animation-name: exam2;
+    animation-duration: 12s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+@keyframes exam2{
+    0%	{
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+    25%	{
+        background-color: aqua;
+        top: 10px;
+        left: 50px;
+    }
+    50%	{
+        background-color: violet;
+        top: 50%;
+        left: 50%;
+    }
+    75%	{
+        background-color: green;
+        top: 0;
+        left: 80%;
+    }
+    100%	{
+        background-color: orange;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+
+@media screen and (min-width:480px){
+}
