@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thẩm mỹ viện Á Đông</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap-3.3.7.css" rel="stylesheet">
+	<link href="css/landingpage.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="fontawesome5.0.2\web-fonts-with-css\css\fontawesome-all.min.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![/.if]-->
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  	<!-- body code goes here -->
+	
+<div class="nav hidden-xs">
+	<a href="landingpage.html" class="logo">
+		<img src="pics/logo.png">
+	</a>
+	<nav id="nav-left">
+		<a href="#ve-a-dong" class="border-blue">Á Đông</a>
+		<a href="#uu-dai" class="border-blue">Ưu đãi</a>
+		<a href="#ket-qua" class="border-blue">Kết quả</a>
+		<a href="#ket-qua" class="border-blue">Liên hệ</a>	
+		<a href="" class="menu-bacsi">
+			<img src="pics/44-01.png">
+		</a>
+		<a href="" button type="button" data-toggle="modal" data-target="#myModal" class="menu-dangky">
+			<img src="pics/43-01.png">
+		</a>
+	</nav>
+</div>
+	
+<!--/.navbar in phone-->
+<div class="topnav visible-xs">
+	<a href="landingpage.html" class="logo-phone">
+		<img src="pics/logo.png">
+	</a>
+	<!--/.phone navbar-->
+	<a class="icon" id="myBtn">
+		<i class="fa fa-bars"></i>
+	</a>
+</div>
+<!--/.topnav-->
+
+<div id="phone-navbar" class="nav-back">
+	<div id="myLinks" class="visible-xs">
+		<a href="#ve-a-dong">Á Đông</a>
+		<a href="#uu-dai">Ưu đãi</a>
+		<a href="#ket-qua">Kết quả</a>
+		<a href="#ket-qua">Liên hệ</a>
+	</div>
+</div>
+	
+<!--banner-->
+<div class="jumbotron" id="banner">
+	<div class="img-in-jumbotron">
+		<a href="">
+			<img class="hidden-sm hidden-xs" src="pics/2.png">
+		</a>
+	</div>
+	<!--/.img in jumbotron-->
+</div>
+<!--/.banner-->
+<div class="container"  id="paneTwo2">
+	<div id="carousel" class="container">
+			<div class="row ">
+				<div class="col-md-12" >
+					<h3 class="text-center">Về Á Đông <img src="pics/29.png"  id="ve-a-dong" class="sun"></h3>
+				</div>
+				<!--/. col md 12-->
+			<div class="col-md-9 col-xs-12 hidden-xs">
+				<div class="row">
+					<div class="col-xs-6 col-sm-12"  id="LARGE">
+						<a href="#uu-dai" id="change">
+							<img src="pics/c1.jpg" class="img-responsive" id="big-img" alt="">
+						</a>
+						<p id="imgtext">Thẩm mỹ viện hơn 26 năm kinh nghiệm</p>
+					</div>
+					<!--/.col md 10-->
+				</div><!--/. row-->
+			</div>
+			<!--/. col md 9-->
+			<div class="col-md-3 col-xs-12">
+				<div class="row">
+					<div class="col-xs-12 col-sm-3 col-md-12">
+						<a href="pics/c1.jpg">
+							<img src="pics/d1.jpg" class="img-responsive small-img hidden-xs" alt="Thẫm mỹ viện hơn 26 năm kinh nghiệm" id="1" onclick="myFunction(this);">
+							<img src="pics/c1.jpg" class="img-responsive small-img visible-xs">
+						</a>
+						<p class="visible-xs">Thẫm mỹ viện hơn 26 năm kinh nghiệm</p>
+					</div>
+					<!--/.col md 12-->
+				    <div class="col-xs-12 col-sm-3 col-md-12">
+						<a href="pics/c2.jpg">
+							<img src="pics/d2.jpg" class="img-responsive small-img hidden-xs" alt="Trải nghiệm phương pháp thẩm mỹ độc quyền" id="2" onclick="myFunction(this);">
+							<img src="pics/c2.jpg" class="img-responsive small-img visible-xs">
+						</a>
+						<p class="visible-xs">Trải nghiệm phương pháp thẩm mỹ độc quyền</p>
+					</div>
+					<!--/.col md 12-->
+					<div class="col-xs-12 col-sm-3 col-md-12">
+						<a href="pics/c3.jpg">
+							<img src="pics/d3.jpg" class="img-responsive small-img hidden-xs" alt="Đội ngũ bác sĩ hàng đầu có chứng chỉ hành nghề" id="3" onclick="myFunction(this);">
+							<img src="pics/c3.jpg" class="img-responsive small-img visible-xs">
+						</a>
+						<p class="visible-xs">Đội ngũ bác sĩ hàng đầu có chứng chỉ hành nghề</p>
+					</div>
+					<!--/.col md 12-->
+					<div class="col-xs-12 col-sm-3 col-md-12">
+						<a href="pics/c4.jpg">
+							<img src="pics/d4.jpg" class="img-responsive small-img hidden-xs" alt="Cam kết bảo hành dịch vụ" id="4" onclick="myFunction(this);">
+							<img src="pics/c4.jpg" class="img-responsive small-img visible-xs">
+						</a>
+						<p class="visible-xs">Cam kết bảo hành dịch vụ</p>
+					</div>
+					<!--/.col md 12-->
+			    </div>
+				<!--/.row-->
+            </div>
+			<!--/. col md 3-->
+		</div>
+		<!--/.row-->
+	</div>
+	<!--/.carousel-->
+</div>
+<!--/.container-->
+<div class="middle">
+	<img src="pics/41.png" class="left">
+	<img src="pics/40.png" class="right">
+	
+</div>
+<!--/.middle-->
+<div id="uu-dai" class="container-fluid">
+	<div class="row">
+		<div class="container">
+			<div id="title-uu-dai">
+				<h3>Ưu đãi tháng 5 <img class="white-sun" src="pics/14.png"> </h3>
+				<h3 class="small-h3"><img class="white-decor" src="pics/15.png"> có gì hot !</h3>
+				<p>họa lại thanh xuân cho làn da</p>
+			</div>
+			<!--/.title uu dai-->
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="thumbnail center-block">
+						<div class="giam50">
+							<p class="giam-den">Giảm đến</p>
+							<p class="50percent text-center" style="font-size:33px; font-weight: bold; line-height: 10px;">50<span style="font-size: 15pt" >%</span></p>
+						</div>
+						<!--/.giam50-->
+						<a href="">
+							<img src="pics/16.jpg" class="visible-lg" alt="">
+							<img src="pics/s19.jpg" class="hidden-lg" alt="">
+						</a>
+						<div class="caption">
+							<a href=""><h5>Căng da mặt collagen Lifting 4D</h5></a>
+							<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" button type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+						</div>
+						<!--/.caption-->
+					</div>
+					<!--/.thumbnail-->
+				</div>
+				<!--/.col lg 4-->
+				<div class="col-lg-4">
+					<div class="thumbnail center-block">
+						<div class="giam50">
+							<p class="giam-den">Giảm đến</p>
+							<p class="50percent text-center" style="font-size:33px; font-weight: bold; line-height: 10px;">50<span style="font-size: 15pt" >%</span></p>
+						</div>
+						<!--/.giam50-->
+						<a href="">
+							<img src="pics/18.jpg" class="visible-lg" alt="">
+							<img src="pics/s18.jpg" class="hidden-lg" alt="">
+						</a>
+						<div class="caption">
+							<a href=""><h5>Căng bóng da Skin Baby Face</h5></a>
+							<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+						</div>
+						<!--/.caption-->
+					</div>
+					<!--/.thumbnail-->
+				</div>
+				<!--/.col lg 4-->
+				<div class="col-lg-4">
+					<div class="thumbnail center-block">
+						<div class="giam50">
+							<p class="giam-den">Giảm đến</p>
+							<p class="50percent text-center" style="font-size:33px; font-weight: bold; line-height: 10px;">50<span style="font-size: 15pt" >%</span></p>
+						</div>
+						<!--/.giam50-->
+						<a href="">
+							<img src="pics/19.jpg"  class="visible-lg" alt="">
+							<img src="pics/s19.jpg" class="hidden-lg" alt="">
+						</a>
+						<div class="caption">
+							<a href=""><h5>Trắng da mặt Stem Cell White</h5></a> 
+							<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+						</div>
+						<!--/.caption-->
+					</div>
+					<!--/.thumbnail-->
+				</div>
+				<!--/.col lg 4-->
+				<div class="col-lg-12">
+					<div class="thumbnail center-block">
+						<div class="giam50">
+							<p class="tang-ngay">Tặng ngay</p>
+							<p class="50percent text-center" style="font-size:33px; font-weight: bold; line-height: 10px;">10<span style="font-size: 15pt" >tr</span></p>
+						</div>
+						<!--/.giam50-->
+						<img src="pics/20.jpg" alt="">
+						<div class="caption">
+							<h5>Trẻ hóa da công nghệ PRP & Fracxel Nano</h5>
+							<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+						</div>
+						<!--/.caption-->
+					</div>
+					<!--/.thumbnail-->
+				</div>
+				<!--/.col lg 4-->
+			</div><!--/.row-->
+		</div><!--/.container-->
+	
+		<img class="flower-left" src="pics/23.png" >
+		<img class="flower-right" src="pics/25.png" >
+		
+		<div class="container" id="thanh-xuan">
+			<div id="title-thanh-xuan">
+				<img src="pics/21.png" class="decor-left visible-lg">
+				<h3>Thanh xuân <img src="pics/14.png" class="white-sun"></h3>
+				<h3 class="small-h3"><img src="pics/15.png" class="white-decor"> đến từ đôi mắt</h3>
+				<img src="pics/22.png" class="decor-right visible-lg">
+			</div>
+			<!--/.title thanh xuan-->
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="thumbnail">
+						<div class="giam50">
+							<p class="giam-den">Giảm đến</p>
+							<p class="50percent text-center" style="font-size:33px; font-weight: bold; line-height: 10px;">50<span style="font-size: 15pt" >%</span></p>
+						</div>
+						<!--/.giam50-->
+						<img src="pics/24.jpg" alt="">
+						<div class="caption">
+							<div class="row">
+								<div class="col-md-5">
+									<h5>Nâng chân mày</h5>
+									<h4>Eye Beauty Cog</h4>
+								</div>
+								<!--/.col md 4-->
+								<div class="col-md-7">
+									<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+								</div>
+								<!--/.col md 8-->
+							</div>
+						</div>
+						<!--/.caption-->
+					</div>
+					<!--/.thumbnail-->
+				</div>
+				<!--/.col lg 4-->
+				<div class="col-lg-6">
+					<div class="thumbnail">
+						<div class="giam50">
+							<p class="giam-den">Giảm đến</p>
+							<p class="50percent text-center" style="font-size:33px; font-weight: bold; line-height: 10px;">30<span style="font-size: 15pt" >%</span></p>
+						</div>
+						<!--/.giam50-->
+						<img src="pics/26.jpg" alt="">
+						<div class="caption">
+							<div class="row">
+								<div class="col-md-5">
+									<h5>Bấm mí</h5>
+									<h4>siêu chỉ Nano</h4>
+								</div>
+								<!--/.col md 4-->
+								<div class="col-md-7">
+									<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+								</div>
+								<!--/.col md 8-->
+							</div>
+						</div>
+						<!--/.caption-->
+					</div>
+					<!--/.thumbnail-->
+				</div>
+				<!--/.col lg 4-->
+				<div class="col-lg-6">
+					<div class="thumbnail">
+						<div class="giam50">
+							<p class="tang-ngay">Tặng ngay</p>
+							<p class="50percent text-center" style="font-size:33px; font-weight: bold; line-height: 10px;">4<span style="font-size: 15pt" >tr</span></p>
+						</div>
+						<!--/.giam50-->
+						<img src="pics/27.jpg" alt="">
+						<div class="caption">
+							<div class="row">
+								<div class="col-md-5">
+									<h5>Treo cung</h5>
+									<h4>chân mày Hàn Quốc</h4>
+								</div>
+								<!--/.col md 4-->
+								<div class="col-md-7">
+									<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+								</div>
+								<!--/.col md 8-->
+							</div>
+						</div>
+						<!--/.caption-->
+					</div>
+					<!--/.thumbnail-->
+				</div>
+				<!--/.col lg 4-->
+				<div class="col-lg-6">
+					<div class="thumbnail">
+						<div class="giam50">
+							<p class="tang-ngay">Tặng ngay</p>
+							<p class="50percent text-center" style="font-size:33px; font-weight: bold; line-height: 10px;">4<span style="font-size: 15pt" >tr</span></p>
+						</div>
+						<!--/.giam50-->
+						<img src="pics/28.jpg" alt="">
+						<div class="caption">
+							<div class="row">
+								<div class="col-md-5">
+									<h5>Lấy mỡ mí dưới</h5>
+									<h4>Nano Eye</h4>
+								</div>
+								<!--/.col md 4-->
+								<div class="col-md-7">
+									<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+								</div>
+								<!--/.col md 8-->
+							</div>
+							<!--/.row-->
+						</div>
+						<!--/.caption-->
+					</div>
+					<!--/.thumbnail-->
+				</div>
+				<!--/.col lg 4-->
+			</div>
+			<!--/.row-->
+		</div>
+		<!--/.container-->
+	</div>
+	<!--/.row-->
+</div>
+<!--/.uu dai-->
+<div class="container" id="mai-la">
+	<div class="container-fluid">
+		<div class="title-thanh-xuan">
+			<h3>Mãi mãi là <img class="white-sun" src="pics/29.png"> </h3>
+			<h3 class="small-h3"><img class="white-decor" src="pics/30.png"> thanh xuân</h3>
+		</div>
+		<!--/.title uu dai-->
+		<div class="row">
+		    <div class="col-lg-6">
+				<div class="hop-mai-la">
+					<div class="text-mai-la">
+						<img src="pics/31.png">
+						<p>Trị hôi nách</p>
+						<h4>nano dry 4.0</h4>
+						<p class="giam-den hidden-xs">Giảm đến <span style="font-size: 50px; line-height: 45px; vertical-align: top; font-weight: bold; font-family: 'Roboto', serif">50</span><span class="percent" style="font-family: 'Roboto', serif;">%</span></p>
+						<p class="giam-den visible-xs">Giảm đến <span style="font-size: 35px; line-height: 45px; vertical-align: top; font-weight: bold; font-family: 'Roboto', serif">50</span><span class="percent" style="font-family: 'Roboto', serif;">%</span></p>
+						<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+					</div>
+				</div>
+				<!--/.thanh xuan-->
+			</div>
+			<!--/.col lg 6-->
+			<div class="col-lg-6">
+				<div class="hop-mai-la">
+					<div class="text-mai-la">
+						<img src="pics/32.png">
+						<p>Combo</p>
+						<h4>trẻ hóa cô bé</h4>
+						<p class="giam-den hidden-xs">Giảm đến <span style="font-size: 50px; line-height: 45px; vertical-align: top; font-weight: bold; font-family: 'Roboto', serif">40</span><span style="font-family: 'Roboto', serif;">%</span></p>
+						<p class="giam-den visible-xs">Giảm đến <span style="font-size: 35px; line-height: 45px; vertical-align: top; font-weight: bold; font-family: 'Roboto', serif">40</span><span style="font-family: 'Roboto', serif;">%</span></p>
+						<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+					</div>
+				</div>
+				<!--/.thanh xuan-->
+			</div>
+			<!--/.col lg 6-->
+			<div class="col-lg-6">
+				<div class="hop-mai-la">
+					<div class="text-mai-la">
+						<img src="pics/33.png">
+						<p>Nâng mũi</p>
+						<h4 style="margin-right: -2px;">cấu trúc sline 4d</h4>
+						<p  class="giam-den hidden-xs">Tặng ngay <span style="font-size: 50px; line-height: 45px; vertical-align: top; font-weight: bold; font-family: 'Roboto', serif">10.5</span><span style="font-family: 'Roboto', serif">tr</span></p>
+						<p  class="giam-den visible-xs">Tặng ngay <span style="font-size: 35px; line-height: 45px; vertical-align: top; font-weight: bold; font-family: 'Roboto', serif">10.5</span><span style="font-family: 'Roboto', serif">tr</span></p>
+						<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+					</div>
+				</div>
+				<!--/.thanh xuan-->
+			</div>
+			<!--/.col lg 6-->
+			<div class="col-lg-6">
+				<div class="hop-mai-la">
+					<div class="text-mai-la">
+						<img src="pics/34.png">
+						<p>Nâng ngực giọt nước</p>
+						<h4>nano chip</h4>
+						<p class="giam-den hidden-xs">Tặng ngay <span style="font-size: 50px; line-height: 45px; vertical-align: top; font-weight: bold; font-family: 'Roboto', serif">14</span><span style="font-family: 'Roboto', serif">tr</span></p>
+						<p class="giam-den visible-xs">Tặng ngay <span style="font-size: 35px; line-height: 45px; vertical-align: top; font-weight: bold; font-family: 'Roboto', serif">14</span><span style="font-family: 'Roboto', serif">tr</span></p>
+						<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+					</div>
+				</div>
+				<!--/.thanh xuan-->
+			</div>
+			<!--/.col lg 6-->
+	    </div>
+    </div><!--/.container-->
+</div>
+<div class="gradian-back">
+	<img src="pics/45-01.png" class="decor-left-ml">
+	<img src="pics/46-01.png" class="decor-right-ml">
+</div>
+<!--/.gradian back-->
+<div class="container">
+	<div class="container" id="ket-qua">
+		<div class="title-thanh-xuan">
+			<h3><img class="white-decor" src="pics/30.png">Kết quả<img class="white-sun" src="pics/29.png"> </h3>
+			<p>khách hàng sử dụng dịch vụ</p>
+		</div>
+		
+		<div id="carousel1" class="carousel slide" data-ride="carousel">
+		    <div class="carousel-inner" role="listbox">
+		        <div class="item active">
+					<img src="pics/k1.png" alt="First slide image" class="center-block hidden-xs">
+					<img src="pics/41.jpg" alt="First slide image" class="center-block visible-xs">
+					<div class="carousel-caption">
+						<p class="title-carousel">lấy mỡ mí dưới hàn quốc</p>
+						<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+					</div>
+	            </div>
+		        <!--/.item-->
+		        <div class="item">
+					<img src="pics/k2.png" alt="First slide image" class="center-block hidden-xs">
+					<img src="pics/36.jpg" alt="First slide image" class="center-block visible-xs">
+					<div class="carousel-caption">
+						<p class="title-carousel">lấy mỡ mí dưới hàn quốc</p>
+						<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+					</div>
+	            </div>
+		        <!--/.item-->
+		        <div class="item">
+					<img src="pics/k3.png" alt="First slide image" class="center-block hidden-xs">
+					<img src="pics/40.jpg" alt="First slide image" class="center-block visible-xs">
+					<div class="carousel-caption">
+						<p class="title-carousel">lấy mỡ mí dưới hàn quốc</p>
+						<p><a href="" class="btn btn-primary" role="button">0938.488.099</a><a href="#" class="btn btn-default" type="button" data-toggle="modal" data-target="#myModal" role="button">Đăng ký</a></p>
+					</div>
+	            </div>
+		        <!--/.item-->
+	        </div>
+			<!--/.carousel-->
+		    <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+		</div>
+		
+	</div>
+	<!--/.container-->
+</div>
+<!-- /.container fluid-->
+
+<div class="decor-footer">
+
+</div>
+	
+<footer>
+	
+	<div class="row">
+		<div class="col-sm-3 col-xs-12 center-block">
+			<img src="pics/logo-trang.png">
+		</div>
+		<!--/.col xs 3-->
+		<div class="col-sm-6 col-xs-12">
+			<p class="tru-so">Trụ sở chính</p>
+			<div class="lien-lac">
+				<p>39 Sương Nguyệt Ánh, P.Bến Thành, Q.1, Tp. Hồ Chí Minh</p>
+				<p><b>0938.488.099</b></p>
+				<p>www.thammyvienadong.vn</p>
+			</div>
+			
+		</div>
+		<!--/.col xs 6-->
+		<div class="col-sm-3 col-xs-12">
+			<!--map here-->
+		</div>
+		<!--/.col xs 3-->
+	</div>
+</footer>
+
+
+	
+<!--/.form-->
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Đăng ký ngay</h4>
+			</div>
+			<!--/.modal header-->
+			<div class="modal-body">
+				<form id="dang-ky">
+					<div class="form-group">
+						<label for="name"></label>
+						<input type="name" class="form-control" id="name" placeholder="Họ và tên*">
+					</div>
+					<div class="form-group">
+						<label for="phone"></label>
+						<input type="phone" class="form-control" id="phone" placeholder="Điện thoại" >
+					</div>
+					<div class="form-group">
+						<label for="email"></label>
+						<input type="email" class="form-control" id="email" placeholder="Email*" >
+					</div>
+					<div class="form-group">
+						<label for="service"></label>
+						<input type="service" class="form-control" id="service" placeholder="Dịch vụ quan tâm*" >
+					</div>
+					
+				</form>
+			</div>
+			<!--/.modal body-->
+			<div class="modal-footer">
+				<button type="submit" class="btn btn-dang-ky center-block">Đăng ký ngay</button>
+			</div>
+			<!--modal footer-->
+		</div>
+		<!--/.modal content-->
+	</div>
+	<!--/.modal dialog-->
+</div>
+<!--/.modal dang ky-->
+
+	
+	
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	 
+	<script src="js/bootstrap-3.3.7.js"></script>
+	<script>
+		$(document).ready(function(){
+			
+			//gallery
+			$("#paneTwo2 img").click(function(e){
+				e.preventDefault();
+				var Path = $(this).attr("id");
+				$("#LARGE").css({transform:"scale(.9)", transition:"all .2s"});
+				$("#LARGE img").delay(200).promise().done(function(){
+					$("#LARGE img").attr({src: "pics/c" + Path + ".jpg"});
+					$("#LARGE").css({transform:"scale(1)", transition: "all .2s"});
+				});
+			})
+			
+			//carousel
+			var i=0;
+			$("#right-button").click(function(){
+				$(".thum:eq("+ i +")").hide(250);
+				i++;
+				$("#left-button").show();
+				if(i>=3){
+					$("#right-button").hide();
+				}
+			})
+			$("#left-button").click(function(){
+				i--;
+				$(".thum:eq("+ i +")").show(250);
+				$("#right-button").show();
+				if(i<=0){
+					$("#left-button").hide();
+				}
+			})
+			// Add smooth scrolling to all links in navbar + footer link
+			$(".nav a, footer a[href='#myPage']").on('click', function(event) {
+			// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+				// Prevent default anchor click behavior
+					event.preventDefault();
+
+					// Store hash
+					var hash = this.hash;
+
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+						}, 900, function(){
+
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+						});
+						} // End if
+						});
+
+						$(window).scroll(function() {
+						$(".slideanim").each(function(){
+						var pos = $(this).offset().top;
+
+						var winTop = $(window).scrollTop();
+						if (pos < winTop + 600) {$(this).addClass("slide");}
+				});
+			});	
+			
+			//navbar
+			// Get the modal
+			var modal = document.getElementById("phone-navbar");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+
+			// When the user clicks the button, open the modal 
+			btn.onclick = function() {
+			  modal.style.display = "block";
+			}
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			  if (event.target == modal) {
+				modal.style.display = "none";
+			  }
+			}
+		})
+		// title right
+		function myFunction(imgs) {
+			var imgText = document.getElementById("imgtext");
+			imgText.innerHTML = imgs.alt;
+		}
+		//nav 
+		
+		
+	</script>
+  </body>
+</html>
