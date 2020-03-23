@@ -1,0 +1,446 @@
+@charset "utf-8";
+/* CSS Document */
+/*cho màn hình siêu to*/
+
+
+/*Đây là trên pc*/
+@media screen and (min-width: 1280px){
+	.container-fluid {
+		padding-left: 170px;
+		padding-right: 170px;
+	}
+	#nha-tuyen-dung .img-left{
+		margin-left: 120px;
+	}
+	.hotline {
+		width: 105px;
+		padding: 6px;
+	}
+	.face{
+		margin-top: 10px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.container-fluid {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+		margin-left: -35px;
+	}
+	.navbar-right{
+		margin-right: -35px;
+	}
+	.nav > li > a{
+		padding-left: 8px;
+	}
+	.space-nav{
+		margin-left: 8px;
+	}
+	
+	/*why aptech*/
+	#whyAptech .col-md-2{
+		width: 20%;
+	}
+	
+	/*cong viec*/
+	#cong-viec .img-responsive{
+		width: 87%;
+	}
+	.danhSachDoiTac{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.nha-tuyen-dung .img-left{
+		margin-left: 0px;
+		width: 13vw;
+	}
+	.nhan_xet{
+		width: 22%;
+	}
+}
+@media screen and (min-width: 1370px){
+	#whyAptech .small-icon {
+		width: 69px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1034px){
+	.nhan_xet {
+		width: 20%;
+	}
+	.bg-orange .responsive {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.navbar-nav > li {
+		float: right;
+	}
+	.navbar-right{
+		margin-top: -35px;
+	}
+	.nav > li > a{
+		padding-left: 3px;
+	}
+	.navbar-brand{
+		padding-top: 30px;
+	}
+	
+	/*WhyAptech*/
+	#whyAptech img{
+		width: 80px;
+	}
+	#whyAptech .icon-img {
+		height: 95px;
+	}
+
+	/*Chuong trinh*/
+	#chuongTrinh .row .img-responsive{
+		width: 82%;
+		margin-bottom: 30px;
+	}
+	#chuongTrinh #hocky .img-responsive{
+		width: 70%;
+		margin-bottom: 30px;
+	}
+	#chuongTrinh .big-img{
+		margin: 0px auto;
+		margin-bottom: 30px;
+		width: 60%;
+	}
+	#chuongTrinh .container-fluid{
+		padding: 0px;
+	}
+	#chuongTrinh .col-sm-9{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#chuongTrinh p{
+		font-size: 12pt;
+	}
+	
+	/*hoc lap trinh*/
+	#hocLapTrinh h1{
+		font-size: 30pt;
+		line-height: 0.8;
+	}
+	
+	/*nha tuyen dung*/
+	.center-text{
+		width: 85%;
+		padding-top: 0px;
+		margin-bottom: 20px;
+	}
+	.danhSachDoiTac{
+		font-size: 18pt !important;
+		padding-left: initial;
+		padding-right: initial;
+	}
+	#nha-td p{
+		text-align: left;
+		font-size: 12pt;
+		line-height: initial;
+	}
+	.nha-tuyen-dung .img-left{
+		width: 130px;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	.author{
+		font-size: 10pt;
+	}
+	.nhan_xet{
+		width: 14.5%;
+	}
+	.bg-violet .form-control {
+	  font-size: 15pt;
+	}
+	.face{
+		margin-top: 10px;
+	}
+	
+	/*footer*/
+	.bg-orange .responsive{
+		width: 90%;
+		float: right;
+	}
+	footer.container-fluid{
+		padding: 10px;
+	}
+	footer p{
+		font-size: 10pt;
+	}
+	.bg-orange h2{
+		font-size: 15pt;
+	}
+	.bg-orange .row .col-sm-4{
+		margin: 0px;
+	}
+	.bg-orange .col-sm-4 .col-sm-5{
+		padding: 0px;
+	}
+	.bg-orange .col-sm-4 .col-sm-5:nth-child(2){
+		margin-left: 5px;
+	}
+	.hotline{
+		width: 100px;
+		padding: 8px;
+	}
+	.bg-orange .row{
+		margin-right: 0px;
+	}
+	
+}
+/*Đây là bản ipad/tablet */
+@media screen and (max-width: 767px) {
+	.col-sm-4 {
+		margin: 25px 0;
+	}
+	.btn-lg {
+		margin-top: 30px;
+		margin-bottom: 35px;
+	}
+
+	/*thanh NAVBAR*/
+	.navbar-toggle{
+		margin-top: 40px;
+	}
+	.navbar-nav > li {
+		float: right;
+	}
+	.navbar-brand{
+		height: auto;
+	}
+	.navbar-brand img {
+		width: 115px;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #f15724;
+	}
+	.navbar-default .navbar-toggle:hover{
+		background-color: transparent;
+		border: 1px solid  #f15724;
+	}
+	.nav > li > a {
+		padding-right: 10px;
+		display: inline-block;
+	}
+	.navbar-right{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.navbar-nav > li {
+		float: initial;
+		text-align: center;
+	}
+	#hocLapTrinh h1 {
+		font-size: 40pt;
+	}
+	
+	/*why aptech*/
+	#whyAptech .small-icon{
+		width: 70px;
+	}
+	#whyAptech img{
+		margin: 0px auto;
+	}
+	#whyAptech img:hover{
+		transform: initial;
+	}
+	
+	/*nha tuyen dung*/
+	#nha-tuyen-dung .img-left{
+		margin-top: 20px;
+	}
+
+	.carousel-control {
+		font-size: 30px;
+	}
+	/*footer*/
+	.hotline{
+		width: 150px;
+		margin-left: 10px;
+	}
+}
+@media screen  and (max-width: 778px) and (min-width: 768px) {
+	#whyAptech .small-icon {
+		width: 7vw;
+	}
+	.nhan_xet {
+		width: 12.5%;
+	}
+}
+
+/*đây là bản phone giữa tablet*/
+@media screen and (max-width: 767px) and (min-width: 480px){
+	
+	/*why aptech*/
+	.carousel-ic{
+		width: 80vw;
+	}
+	#whyAptech .icon-img {
+		height: 115px;
+	}
+	.scroll-hocky{
+		height: 100%;
+		overflow-x:scroll;
+	}
+	.img-hocky{
+		width: 1200px;
+		display: inline;
+		padding-right: 20px;
+	}
+	#hocLapTrinh .scroll-hocky{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	#hocLapTrinh .img-responsive{
+		width: 100%;
+	}
+	#cong-viec .img-responsive{
+		width: 100%;
+	}
+	.danhSachDoiTac{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.nha-tuyen-dung .img-left{
+		width: 35vw;
+		float: none;
+		margin-left: 21vw;
+	}
+	.carousel-control .glyphicon-chevron-right {
+		margin-right: -70px;
+	}
+	.carousel-control .glyphicon-chevron-left {
+		margin-left: -70px;
+	}
+	.center-text{
+		width: 100%;
+	}
+	.face{
+		margin-left: 34vw;
+	}
+}
+
+/*Đây là bản phone*/
+@media screen and (max-width: 479px) {
+	h2{
+		line-height: initial;
+	}
+
+	.container-fluid{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+	/*why aptech*/
+	#whyAptech .small-icon{
+		width: 70px;
+	}
+
+	/*carousel icon*/
+	.carousel-ic{
+		width: 77vw;
+	}
+	#whyAptech .icon-img{
+		height: 120px;
+	}
+	#whyAptech img{
+		margin: 0px auto;
+	}
+	#whyAptech img:hover{
+		transform: initial;
+	}
+	.scroll-hocky{
+		height: 100%;
+		overflow-x:scroll;
+	}
+	.img-hocky{
+		width: 1100px;
+		display: inline;
+		padding-right: 20px;
+	}
+	#cong-viec .img-responsive{
+		width: 100%;
+	}
+	#chuongTrinh{
+		padding-bottom: 10px;
+	}
+	
+	/*hoc lap trinh*/
+	#hocLapTrinh{
+		padding-bottom: 50px;
+	}
+	#hocLapTrinh .img-responsive{
+		width: 100%;
+	}
+	.btn-dangky {
+		margin: 0px auto;
+		margin-top: 10px;
+	}
+	.center-text{
+		width: 95%;
+	}
+	.danhSachDoiTac{
+		font-size: 20pt;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.nha-tuyen-dung .img-left{
+		width: 150px;
+		float: none;
+		margin-left: 28vw;
+	}
+	.nhan_xet_carousel {
+		width: 80vw;
+		margin-left: 10vw;
+	}
+	.carousel-control .glyphicon-chevron-right {
+		margin-right: -25px;
+	}
+	.carousel-control .glyphicon-chevron-left {
+		margin-left: -25px;
+	}
+	.slick-prev {
+		left: -5px;
+	}
+	.slick-next {
+		right: 7px; 
+	}	
+	#tin-tuc .btn-dangky {
+		margin-top: 0px;
+	}
+	#tin-tuc{
+		padding-bottom: 30px;
+	}
+	
+	/*footer*/
+	.bg-orange .responsive{
+		margin-left: 80px;
+	}
+	.bg-orange h2{
+		text-align: center;
+	}
+	.face{
+		margin-top: 0px;
+		margin-left: 40vw;
+	}
+}
+@media screen and (max-width: 360px) {
+	.nha-tuyen-dung .img-left {
+		margin-left: 21vw;
+	}
+	.hotline {
+		width: 38vw;
+	}
+	.face {
+		margin-left: 42vw;
+	}
+	.bg-orange .responsive {
+		margin-left: 65px;
+	}
+}

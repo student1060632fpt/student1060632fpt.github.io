@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*font face for body*/
+@font-face {
+font-family: "Roboto";
+src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+font-family: "Roboto-LightItalic";
+src: url("../fonts/Roboto-LightItalic.ttf");
+}
+@font-face {
+font-family: "Roboto-Bold";
+src: url("../fonts/Roboto-Bold.ttf");
+}
+/*font face for important text*/
+@font-face {
+font-family: "Arial";
+src: url("../fonts/Arial Bold.ttf");
+}
+@font-face {
+font-family: "Arial-Italic";
+src: url("../fonts/Arial Italic.ttf");
+}
+/*
+Color basic of web
+orange: #ef5122
+violet: #372e89
+background: linear-gradient(to bottom, #f05122 0%, #f4772e 100%);
+*/
